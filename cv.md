@@ -1,4 +1,4 @@
-![foto](https://sun9-47.userapi.com/c4131/u9573088/a_eaed7b12.jpg)
+   ![foto](https://sun9-47.userapi.com/c4131/u9573088/a_eaed7b12.jpg)
 
 ## Anton Vecherov
 
