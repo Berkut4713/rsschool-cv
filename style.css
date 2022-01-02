@@ -18,15 +18,7 @@
     margin: 0 auto;
   }
  
-  .header {
-    border: 1px solid red;
-  }
-  .main{
-    border: 1px solid red;
-  }
-  .footer{
-    border: 1px solid red;
-  }
+ 
   .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -97,5 +89,8 @@
     border-radius: 50%;
   }
   .footer {
-    text-align: center; 
+    text-align: center;     
+  }
+  footer li {
+    list-style-type: none;
   }
