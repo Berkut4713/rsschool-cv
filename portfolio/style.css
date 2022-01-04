@@ -12,6 +12,12 @@
     margin: 0 auto;
     padding: 0 20px;
   }
+  .header-container{
+    display: flex;
+  }
+  .nav {
+    margin-left: auto ;
+  }
   .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -23,3 +29,18 @@
     line-height: 50px;
     transition: .3s;
   } 
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #140aa5;
+  }
+  .section-title::before {
+    border: 1px solid #829985;   
+  }
+  .header-container {
+    background: url('./assets/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+  }
