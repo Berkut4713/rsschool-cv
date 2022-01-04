@@ -6,4 +6,9 @@
 @font-face {
     font-family: Merriweather-Bold;
      src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
-}
+   }
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
