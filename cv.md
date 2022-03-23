@@ -7,11 +7,10 @@
 1. ### **Contacts**
    - GitHub: Berkut4713
    - E-mails: av.vecherov@gmail.com; berkut_bm@mail.ru
-   - Phone: +7 964 494 04 03
    - Discord: Anton (berkut4713)#9580
    - Telegram: Berkut4713
 2. ### **About Me**
-   - I am 37 years old, I work as an energy engineer. The degree of automation of work processes in current work has reached the limits of knowledge. The time has come to learn new things and, in the future, change the profile of activities. All my life I have never stopped studying - it's very interesting!
+   - I am 38 years old, I work as an energy engineer. The degree of automation of work processes in current work has reached the limits of knowledge. The time has come to learn new things and, in the future, change the profile of activities. All my life I have never stopped studying - it's very interesting!
 3. ### **Skills**
 
    - HTML( basic knowledge)
@@ -24,10 +23,24 @@
 
 4. ### **Code Examples**
    ```
-   function multiply(a, b)
-   {
-   return a * b;
-   }
+   function rgb(r, g, b){
+    let res = `${filtr(r)}${filtr(g)}${filtr(b)}`;
+    return  res.toUpperCase();
+  }
+
+   function filtr(number){
+    let number10 = number;
+    if (number < 0){
+        number10 = 0;
+    } else if (number > 255){
+        number10 = 255;
+    }
+    let number16 = number10.toString(16);
+    if (number10 < 16){
+        return `0${number16}`;
+    } 
+        return number16;
+    }
    ```
 5. ### **Education**
 
