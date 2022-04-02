@@ -41,7 +41,6 @@
                             <ul>
                                 <li>GitHub: Berkut4713</li>
                                 <li>E-mails: av.vecherov@gmail.com, berkut_bm@mail.ru</li>
-                                <li>Phone: +7 964 494 04 03</li>
                                 <li>Discord: Anton (berkut4713)#9580</li>
                                 <li>Telegram: Berkut4713</li>     
                             </ul>  
@@ -68,12 +67,24 @@
                 <section class="section" id="code">
                     <h2 class="section-title">Code</h2>
                         <pre>
-        <code>let isDivideBy = (number, a, b) => {
-        if (number % a === 0 && number % b === 0) {
-        return true
-        } else {
-        return false}
-        }
+        <code>function rgb(r, g, b){
+                 let res = `${filtr(r)}${filtr(g)}${filtr(b)}`;
+                 return  res.toUpperCase();
+                  }
+
+                function filtr(number){
+                 let number10 = number;
+                 if (number &lt; 0){
+                     number10 = 0;
+                 } else if (number &gt; 255){
+                     number10 = 255;
+                 }
+                 let number16 = number10.toString(16);
+                 if (number10 &lt; 16){
+                     return `0${number16}`;
+                 } 
+                     return number16;
+                 }
         </code>
                         </pre>                      
                                          
@@ -129,7 +140,7 @@
                         <a href="https://rs.school/js">https://rs.school/js</a>
                     </li>
                     <li>
-                        <span>2021</span>
+                        <span>2022</span>
                     </li>
                 </ul>
                
