@@ -10,7 +10,7 @@
    - Discord: Anton (berkut4713)#9580
    - Telegram: Berkut4713
 2. ### **About Me**
-   - I am 38 years old, I work as an energy engineer. The degree of automation of work processes in current work has reached the limits of knowledge. The time has come to learn new things and, in the future, change the profile of activities. All my life I have never stopped studying - it's very interesting!
+   - I am 39 years old, I work as an energy engineer. The degree of automation of work processes in current work has reached the limits of knowledge. The time has come to learn new things and, in the future, change the profile of activities. All my life I have never stopped studying - it's very interesting!
 3. ### **Skills**
 
    - HTML( basic knowledge)
