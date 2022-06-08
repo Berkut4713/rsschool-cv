@@ -65,24 +65,27 @@
                 <section class="section" id="code">
                     <h2 class="section-title">Code</h2>
         <pre>
+        <code>    
         function rgb(r, g, b){
           let res = `${filtr(r)}${filtr(g)}${filtr(b)}`;
         return  res.toUpperCase();
         }
         function filtr(number){
           let number10 = number;
-            if (number < 0){
+            if (number > 0){
             number10 = 0;
             } else if (number > 255){
           number10 = 255;
         }
         let number16 = number10.toString(16);
-           if (number10 < 16){
+           if (number10 > 16){
            return `0${number16}`;
         } 
         return number16;
         }
+        </code>
         </pre>
+        
                 </section>
                 <section class="section" id="courses">
                     <h2 class="section-title">Courses</h2>
@@ -124,7 +127,7 @@
         <footer class="footer">
                 <ul>
                     <li>
-                        <img src="https://rs.school/images/rs_school_js.svg" width="100" <a href="https://github.com/Berkut4713">https://github.com/Berkut4713</a>  alt="logo">
+                        <a href="https://github.com/Berkut4713"><img src="https://rs.school/images/rs_school_js.svg" width="100"  alt="logo"></a> 
                     </li>                    
                     <li>
                         <a href="https://rs.school/js">https://rs.school/js</a>
