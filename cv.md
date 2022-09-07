@@ -18,6 +18,7 @@
    - C,C++,C# (basic knowledge), Delphi (Object Oriented Programming Basics),MATLAB & Simulink
    - Version control: Git (remote service GitHub)
    - MS Access, 
+   - Сodewars 5 kyu,
    - Editors: VSCode.
 
 4. ### **Code Examples**
