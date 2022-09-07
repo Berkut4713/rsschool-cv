@@ -17,8 +17,7 @@
    - CSS ( basic knowledge).
    - C,C++,C# (basic knowledge), Delphi (Object Oriented Programming Basics),MATLAB & Simulink
    - Version control: Git (remote service GitHub)
-   - MS Access,
-   - Windows OS,
+   - MS Access, 
    - Editors: VSCode.
 
 4. ### **Code Examples**
