@@ -72,13 +72,13 @@
         }
         function filtr(number){
           let number10 = number;
-            if (number > 0){
+            if (number &gt 0){
             number10 = 0;
-            } else if (number > 255){
+            } else if (number &gt 255){
           number10 = 255;
         }
         let number16 = number10.toString(16);
-           if (number10 > 16){
+           if (number10 &gt 16){
            return `0${number16}`;
         } 
         return number16;
